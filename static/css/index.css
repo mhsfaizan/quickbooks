@@ -1,0 +1,112 @@
+.banner{
+    min-height: 300px;
+}
+
+.banner-img img{
+    margin-top: 1rem;
+    width: 330px;
+}
+.banner-text  h3{
+    font-size: 2.3rem;
+    margin-top: 3rem;
+}
+.banner-text p:nth-child(1){
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+/* .my-tabs{
+    position: relative;
+}
+.my-tabs .right-btn,.my-tabs .left-btn{
+    position: absolute;
+    top: 39px;
+}
+.my-tabs .right-btn{
+    right: 15px;
+}
+.my-tabs .left-btn{
+    left: 15px;
+} */
+
+.services .row .col,.footer.row .col{
+    padding:0 20px;
+}
+.my-card-title:after{
+    content: "";
+    display: block;
+    border: 1px solid #555;
+    width: 50px;
+    position: relative;
+    margin-top: 0.5rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.my-card{
+    background-color: #c628286e;
+    color: #000;
+}
+/* .my-card .my-card-title:after,.card-bg-image .main-heading:after{
+    border: 1px solid #fff;
+} */
+.card-bg-image{
+    background-image: url(/static/images/background.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-color: #555;
+    background-blend-mode: color-burn;
+}
+.card-bg-image  .main-heading:after{
+    border:2px solid #fff;
+}
+.client-carousel{
+    height: 381px!important;
+}
+.client-carousel button{
+    position: absolute;
+    top: 50%;
+}
+.client-carousel .card{
+    border-radius: 10px;
+}
+.client-carousel button:last-child{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.client-carousel .carousel-item{
+    height: 367px;
+    width: 375px;
+    opacity: 1!important;
+}
+.client-carousel .carousel-item .card{
+    height: 100%;
+}
+
+/* .carousel .indicators .indicator-item{
+    background-color: #555;
+}
+.carousel .indicators .indicator-item.active{
+    background-color: #eee;
+} */
+
+.client{
+    background-image: url("/static/images/banner_back.jpg");
+}
+.client .main-heading:after{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+}
+/* @media(max-width:768px){
+    .client-carousel .carousel-item{
+        height: 300px;
+        width: 300px;
+        opacity: 1!important;
+    }
+} */
+/* .carousel.client-carousel{
+    height: 200px!important;
+}    */
+
